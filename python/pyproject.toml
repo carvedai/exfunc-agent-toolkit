@@ -1,0 +1,40 @@
+[project]
+name = "exfunc-agent-toolkit"
+version = "0.0.1"
+description = "Exfunc Agent Toolkit"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Exfunc", email = "support@exfunc.com"}
+]
+keywords = ["exfunc", "api", "automation"]
+
+[project.urls]
+"Bug Tracker" = "https://github.com/carvedai/exfunc-agent-toolkit/issues"
+"Source Code" = "https://github.com/carvedai/exfunc-agent-toolkit"
+
+[tool.setuptools.packages.find]
+include = ["exfunc_agent_toolkit*"]
+exclude = ["tests*", "examples*"]
+
+[tool.ruff]
+# same as our black config
+line-length = 79
+extend-exclude = ["build"]
+
+[tool.ruff.format]
+# currently the default value, but opt-out in the future
+docstring-code-format = false
+
+[tool.pyright]
+include = [
+  "*",
+]
+exclude = ["build", "**/__pycache__"]
+reportMissingTypeArgument = true
+reportUnnecessaryCast = true
+reportUnnecessaryComparison = true
+reportUnnecessaryContains = true
+reportUnnecessaryIsInstance = true
+reportPrivateImportUsage = true
+reportUnnecessaryTypeIgnoreComment = true
