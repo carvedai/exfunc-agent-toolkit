@@ -5,7 +5,7 @@ library is not exhaustive of the entire Exfunc API. It includes support for both
 
 The toolkit was inspired by [Stripe Agent Toolkit][stripe-agent-toolkit], and its implementation shares similarities with the Stripe Agent Toolkit codebase.
 
-Included below are basic instructions, but refer to the [Python](/python) and [TypeScript](/typescript) packages for more information.
+Included below are basic instructions, but refer to the [Python](/python) and [TypeScript](/typescript) packages for more information. Also, check out our [documentation][docs].
 
 ## Python
 
@@ -92,6 +92,7 @@ const agent = await createReactAgent({
 });
 ```
 
+[docs]: https://docs.exfunc.com
 [python-sdk]: https://github.com/carvedai/exfunc-py
 [node-sdk]: https://github.com/carvedai/exfunc-js
 [api-keys]: https://app.exfunc.com/dashboard
