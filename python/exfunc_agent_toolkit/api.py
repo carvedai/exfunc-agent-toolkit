@@ -21,7 +21,7 @@ class ExfuncAPI(BaseModel):
     @classmethod
     def validate_environment(cls, values: Dict) -> Any:
         """Validate that api key exists in environment."""
-        api_key = values.get("api_key")
+        api_key = values.get("exfunc_api_key")
         env_api_key = os.environ.get("EXFUNC_API_KEY")
         if api_key:
             values["exfunc_api_key"] = api_key
