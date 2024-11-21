@@ -8,6 +8,7 @@ venv: $(VENV_NAME)/bin/activate
 $(VENV_NAME)/bin/activate: requirements.txt
 	@test -d $(VENV_NAME) || $(PYTHON) -m venv --clear $(VENV_NAME)
 	${VENV_NAME}/bin/python -m pip install -r requirements.txt
+	${VENV_NAME}/bin/python -m pip install build
 	@touch $(VENV_NAME)/bin/activate
 
 test: venv
