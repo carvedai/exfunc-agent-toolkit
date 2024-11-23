@@ -92,6 +92,10 @@ const agent = await createReactAgent({
 });
 ```
 
+## Agent Demo
+
+https://github.com/user-attachments/assets/80c4ed26-69f7-49d2-a75e-307d9da4f5df
+
 [docs]: https://docs.exfunc.com
 [python-sdk]: https://github.com/carvedai/exfunc-py
 [node-sdk]: https://github.com/carvedai/exfunc-js
