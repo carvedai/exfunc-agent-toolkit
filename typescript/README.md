@@ -43,4 +43,4 @@ const agent = await createReactAgent({
 This works with both `generateText` and `generateStream` from the Vercel AI SDK.
 
 [node-sdk]: https://github.com/carvedai/exfunc-js
-[api-keys]: https://app.exfunc.com/dashboard
+[api-keys]: https://app.exfunc.dev/dashboard

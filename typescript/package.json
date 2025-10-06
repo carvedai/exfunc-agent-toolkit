@@ -26,9 +26,9 @@
   "engines": {
     "node": ">=18"
   },
-  "author": "Exfunc <support@exfunc.com> (https://exfunc.com/)",
+  "author": "Exfunc <support@carvedai.com> (https://exfunc.dev/)",
   "contributors": [
-    "Richard Song <richard@exfunc.com>"
+    "Richard Song <richard@carvedai.com>"
   ],
   "license": "MIT",
   "devDependencies": {

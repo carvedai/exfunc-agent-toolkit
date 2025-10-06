@@ -14,8 +14,8 @@ class TestExfuncAPI(unittest.TestCase):
         mock_result = [
             {
                 "title": "Exfunc",
-                "url": "https://www.exfunc.com/",
-                "domain": "www.exfunc.com",
+                "url": "https://www.exfunc.dev/",
+                "domain": "www.exfunc.dev",
             }
         ]
 

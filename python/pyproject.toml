@@ -5,7 +5,7 @@ description = "Exfunc Agent Toolkit"
 readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
-  {name = "Exfunc", email = "support@exfunc.com"}
+  {name = "Exfunc", email = "support@carvedai.com"}
 ]
 keywords = ["exfunc", "api", "automation"]
 

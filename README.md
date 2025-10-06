@@ -96,8 +96,8 @@ const agent = await createReactAgent({
 
 https://github.com/user-attachments/assets/80c4ed26-69f7-49d2-a75e-307d9da4f5df
 
-[docs]: https://docs.exfunc.com
+[docs]: https://docs.exfunc.dev
 [python-sdk]: https://github.com/carvedai/exfunc-py
 [node-sdk]: https://github.com/carvedai/exfunc-js
-[api-keys]: https://app.exfunc.com/dashboard
+[api-keys]: https://app.exfunc.dev/dashboard
 [stripe-agent-toolkit]: https://github.com/stripe/agent-toolkit

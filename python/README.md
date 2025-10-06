@@ -47,7 +47,7 @@ langgraph_agent_executor = create_react_agent(llm, tools)
 Example for LangChain is included in `/examples`.
 
 [python-sdk]: https://github.com/carvedai/exfunc-py
-[api-keys]: https://app.exfunc.com/dashboard
+[api-keys]: https://app.exfunc.dev/dashboard
 
 ## Development
 
